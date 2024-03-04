@@ -88,9 +88,9 @@ public class AppConfiguration implements WebMvcConfigurer, ApplicationContextAwa
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/cms");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/customer93");
         dataSource.setUsername("root");
-        dataSource.setPassword("123456");
+        dataSource.setPassword("12345678");
         return dataSource;
     }
 
